@@ -36,7 +36,11 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\pickUp.cs" />
+     <Compile Include="Assets\Script\DoorCallOpen.cs" />
+     <Compile Include="Assets\Script\pickUp.cs" />
+     <Compile Include="Assets\Script\PlayerCasting.cs" />
+     <Compile Include="Assets\Script\Sequences\AOpening.cs" />
+     <None Include="Assets\Horror SFX - 082918\Notes.txt" />
     <Reference Include="UnityEngine">
         <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
